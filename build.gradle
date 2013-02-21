@@ -1,0 +1,16 @@
+
+apply plugin:'groovy'
+
+repositories {
+    mavenCentral()
+	mavenLocal()
+}
+
+dependencies {
+    groovy 'org.codehaus.groovy:groovy-all:2.0.3'
+
+    compile 'org.codehaus.groovy:groovy-all:2.0.3'
+	compile 'com.rabbitmq:amqp-client:3.0.2' 
+	
+	compile "org.spockframework:spock-core:0.7-groovy-2.0"
+}
