@@ -5,6 +5,9 @@ import com.rabbitmq.client.Connection
 import com.rabbitmq.client.Channel
 import com.rabbitmq.client.QueueingConsumer
 
+/**
+ * This class consumes messages from a given queue
+**/
 class Receiver extends ChannelAware{
 
 	def getMessage(){

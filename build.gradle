@@ -7,10 +7,12 @@ repositories {
 }
 
 dependencies {
+ /* Groovy 2.0.X */
     groovy 'org.codehaus.groovy:groovy-all:2.0.3'
-
+ 
     compile 'org.codehaus.groovy:groovy-all:2.0.3'
+ /* RabbitMQ Java Client Library */
 	compile 'com.rabbitmq:amqp-client:3.0.2' 
-	
+ /* Spock Of course! */	
 	compile "org.spockframework:spock-core:0.7-groovy-2.0"
 }
